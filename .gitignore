@@ -13,6 +13,10 @@ images/maps/
 
 
 
+*.sublime-project
+*.sublime-workspace
+
+
 #wordpress:
 wp-content/plugins/*
 wp-admin/
