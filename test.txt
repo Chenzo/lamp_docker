@@ -1,0 +1,25 @@
+
+is there here?
+
+Just a test ... do we see it?
+
+
+
+
+docker build -t friendlyhello .
+
+
+
+docker run  -v ~/TollRepos/docker:/var/www/example.com/public_html -p 4000:80 -i -t friendlyhello /bin/bash 
+
+
+
+docker run  -v .:/var/www/example.com/public_html -p 4000:80 -i -t friendlyhello /bin/bash 
+
+service apache2 start
+
+localhost:4000
+
+
+
+
